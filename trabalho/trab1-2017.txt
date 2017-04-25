@@ -1,7 +1,7 @@
 Aluno: (Wallace Freixo - 0050011150)
 Trabalho de Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
-1o. Semestre de 2017   Turno: Manhã
+1o. Semestre de 2017   Turno: Noite
 --------------------------------------------------
 Com relação aos comandos do SO Linux, responda as perguntas abaixo:
 
@@ -30,7 +30,7 @@ Resposta2: cp wallace1.txt wallace2.txt wallace3.txt /home/ubuntu/trabalho1-labs
 
 6 - A partir de sua pasta original, usando o comando find do linux, 
 diga quantos diretorios existem cujo nome começa com "pasta"?
-Resposta1 (comando linux usado): find pasta*
+Resposta1 (comando linux usado): find /home/ubuntu/trabalho1-labso -type d -name pasta*
 
 Resposta2 (numero de diretorios encontrados) : 4 
 
@@ -38,7 +38,7 @@ Resposta2 (numero de diretorios encontrados) : 4
 7 - Qual o comando linux para: 
 Extrair todos os enderecos IP dos arquivos 
 que começam com "access.log" imprimindo um endereço IP por linha.
-Resposta: cat access.log | grep "[0-9]\{3\}.[0-9]\{3\}.[0-9]\{3\}'
+Resposta: cat access.log | grep '[0-9]\{3\}.[0-9]\{3\}.[0-9]\{3\}'
 
 8 - listar o conteudo de seu diretorio e direcionar a saida 
 para o primeiro arquivo do item 4.
